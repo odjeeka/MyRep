@@ -1,0 +1,20 @@
+.app-wrapper {
+  display: grid;
+
+  grid-template-areas:
+    "h h h"
+    'n a a';
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+
+}
+
+.app-wrapper {
+  background-color: black;
+}
+.app-wrapper-blocksprava {
+  grid-area: a;
+  background-color: blueviolet;
+  padding: 10px;
+}

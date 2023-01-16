@@ -1,0 +1,17 @@
+.fullblock {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.leftblock {
+    padding: 10px;
+}
+
+.active {
+    color:white;
+}
+
+.rightblock {
+    padding: 10px;
+}
+
